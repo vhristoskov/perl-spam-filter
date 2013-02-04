@@ -4,14 +4,15 @@ use warnings;
 
 use Mail::POP3Client;
 use Email::MIME;
+
 use Config::IniFiles;
+use XML::Simple;
+use Data::Dumper;
+
+use List::Util qw(min max reduce);
+
 
 #use DBI;
-
-#my $username = 'perl.spam.test@gmail.com';
-#my $password = 'perl.test';
-#my $mailhost = 'pop.gmail.com';
-#my $port = '995';
 
 my @emails;
 
@@ -54,6 +55,66 @@ sub getEmails{
     return @emails;
 }
 
+sub extractMailWords($){
+    
+    my ($mailBody) = @_;
+    my %mailWords;
+    
+    # remove punctuation
+    $mailBody =~s/\W\s/ /g;
+    
+    # extract the words from the mail body
+    while ( $mailBody =~ m/(\$?\b[\w|'|"|\-|.]+\b)/g ){
+        
+        unless (length($1) < 3){
+            $mailWords{$1}++;
+        }
+    }
+    
+    return %mailWords;    
+}
+
+
+
+# Bayesian Filtering methods
+
+my %hamWords;
+my %spamWords;
+my %numHamMessages;
+my %numSpamMessages;
+
+# TODO: To pass as argument keys of the %ham and %spam
+sub calcWordsProb{
+    
+    my @words = @_;
+    my %probs
+        
+    for my $word (@words){
+        
+        my $hamWordFreq = 2 * ( $hamWordFreq{$word} || 0 );
+        my $spamWordFreq = $spamWordFreq{$word} || 0;
+        
+        unless ($hamWordFreq + $spamWordFreq < 5){
+            $probs{$word} = max(0.01,
+                                min (0.99,
+                                      min (1, $spamWordFreq / $numSpamMessages) /
+                                            ( min(1, $hamWordFreq / $numHamMessages) +
+                                              min(1, $spamWordFreq / $numSpamMessages))
+                                    )
+                            )
+        } 
+    }
+
+    return %probs;   
+}
+
+sub calcMailProb{
+    my @probs = @_;
+    my $prod = reduce {$a * $b} @probs;
+    
+    return $prod / ($prod + reduce {$a * $b} map {1 - $_} @probs);
+}
+
 #sub dbManipulation{
 #    my $driver = 'mysql';
 #    my $database = 'PERLTEST';
@@ -87,11 +148,22 @@ tie my %iniConfig, 'Config::IniFiles', (-file => $configFile);
 
 my %mailConfig = %{ $iniConfig{'MailHostConfig'} };
 
-print getEmails('username' => $mailConfig{username},
-          'password' => $mailConfig{password},
-          'mailhost' => $mailConfig{mailhost},
-          'port' => $mailConfig{port} );
+my (@unreadMails) = getEmails('username' => $mailConfig{username},
+                            'password' => $mailConfig{password},
+                            'mailhost' => $mailConfig{mailhost},
+                            'port' => $mailConfig{port} );
 
+ 
+ foreach (@unreadMails){
+    my %mailWords = extractMailWords($_);
+ 
+    print join "\n",
+                   map { qq/$_ -> $mailWords{$_}/ }
+                        sort { $mailWords{$b} <=> $mailWords{$a} } keys %mailWords;
+    
+ }
+ 
+ 
 
 #dbManipulation;
 
