@@ -5,6 +5,7 @@ use warnings;
 use Mail::POP3Client;
 use Email::MIME;
 
+use File::Slurp;
 use Config::IniFiles;
 use XML::Simple;
 use Data::Dumper;
@@ -55,10 +56,11 @@ sub getEmails{
     return @emails;
 }
 
-sub extractMailWords($){
+sub extractMailWords{
     
-    my ($mailBody) = @_;
-    my %mailWords;
+    my ($mailBody, $mailWords) = @_;
+    
+    $mailWords = {} unless defined $mailWords;
     
     # remove punctuation
     $mailBody =~s/\W\s/ /g;
@@ -66,12 +68,12 @@ sub extractMailWords($){
     # extract the words from the mail body
     while ( $mailBody =~ m/(\$?\b[\w|'|"|\-|.]+\b)/g ){
         
-        unless (length($1) < 3){
-            $mailWords{$1}++;
+        unless ((length($1) < 3) || ($1 =~ /^[0-9]+$/)){
+            $mailWords->{$1}++;
         }
     }
     
-    return %mailWords;    
+    return %{$mailWords};    
 }
 
 
@@ -80,19 +82,18 @@ sub extractMailWords($){
 
 my %hamWords;
 my %spamWords;
-my %numHamMessages;
-my %numSpamMessages;
+my $numHamMessages;
+my $numSpamMessages;
 
-# TODO: To pass as argument keys of the %ham and %spam
 sub calcWordsProb{
     
     my @words = @_;
-    my %probs
+    my %probs;
         
     for my $word (@words){
         
-        my $hamWordFreq = 2 * ( $hamWordFreq{$word} || 0 );
-        my $spamWordFreq = $spamWordFreq{$word} || 0;
+        my $hamWordFreq = 2 * ( $hamWords{$word} || 0 );
+        my $spamWordFreq = $spamWords{$word} || 0;
         
         unless ($hamWordFreq + $spamWordFreq < 5){
             $probs{$word} = max(0.01,
@@ -108,6 +109,7 @@ sub calcWordsProb{
     return %probs;   
 }
 
+# pass as argument an array with the 15th most interesting words
 sub calcMailProb{
     my @probs = @_;
     my $prod = reduce {$a * $b} @probs;
@@ -115,57 +117,107 @@ sub calcMailProb{
     return $prod / ($prod + reduce {$a * $b} map {1 - $_} @probs);
 }
 
-#sub dbManipulation{
-#    my $driver = 'mysql';
-#    my $database = 'PERLTEST';
-#    my $dbSourceName = "DBI:$driver:$database";
-#    my $userId = 'perl.test';
-#    my $password = 'perl.test';
-#    
-#    my $dbh = DBI->connect($dbSourceName, $userId, $password)
-#                or die "Couldn't connect to database: ". DBI->errstr;
-#    
-#    my $sth = $dbh->prepare_cached('SELECT * FROM People')
-#                    or die "Couldn't prepare statement: ". $dbh->errstr;
-#                    
-#    $sth->execute
-#            or die "Couldn't execute statement: ". $sth->errstr;
-#    my @personData;
-#    
-#    while( @personData = $sth->fetchrow_array()){
-#        print "\t$personData[0]: $personData[1] $personData[2] $personData[3]\n"; 
-#    }
-#    
-#    $sth->finish;
-#    print "\n";
-#    
-#    $dbh->disconnect; 
-#}
 
-
-my $configFile = "config.ini";
-tie my %iniConfig, 'Config::IniFiles', (-file => $configFile);
-
-my %mailConfig = %{ $iniConfig{'MailHostConfig'} };
-
-my (@unreadMails) = getEmails('username' => $mailConfig{username},
-                            'password' => $mailConfig{password},
-                            'mailhost' => $mailConfig{mailhost},
-                            'port' => $mailConfig{port} );
-
- 
- foreach (@unreadMails){
-    my %mailWords = extractMailWords($_);
- 
-    print join "\n",
-                   map { qq/$_ -> $mailWords{$_}/ }
-                        sort { $mailWords{$b} <=> $mailWords{$a} } keys %mailWords;
+# Bayeson Utility methods
+sub numTrainingMails{
+    my ($trainingDir) = @_;
     
- }
- 
- 
+    my @files = <$trainingDir/*>;
+    my $numOfFiles = scalar @files;
+    
+    return $numOfFiles;    
+}
 
-#dbManipulation;
+sub wordsStatisticInFile{
+    
+    
+    # Another way to get the whole info from a file       
+    #open(FH, "<$fileName") || die "Could not open file: $fileName".$!;   
+    #{
+    #    #if $/ is undef the filehandler will read whole info to the end of file
+    #    local $/;
+    #    $fileContent = <FH>;
+    #}
+    
+    my ($fileName, $mailWordsHash) = @_;
+    
+    my $fileContent = '';
+    $fileContent = read_file("$fileName");
+    return extractMailWords($fileContent, $mailWordsHash);
+}
+
+
+sub getHamAndSpamStatistics{
+    
+    my ($hamDir, $spamDir) = @_;
+    for( <'$hamDir/*'> ){
+        wordsStatisticInFile($_, \%hamWords);
+    }
+    #print Dumper(\%hamWords)."\n";
+    #print '##########################################################\n';
+    
+    for( <'$spamDir/*'> ){
+        wordsStatisticInFile($_, \%spamWords);
+    }
+    ##print Dumper(\%spamWords)."\n";
+    ##print '##########################################################\n';
+
+}
+
+
+MAIN:{
+
+    my $configFile = "config.ini";
+    tie my %iniConfig, 'Config::IniFiles', (-file => $configFile);
+    
+    # get number of the training emails
+    my %trainingSetsDir = %{ $iniConfig{'TrainingSetDirs'} };
+
+    $numHamMessages = numTrainingMails( $trainingSetsDir{hamDir} );
+    $numSpamMessages = numTrainingMails( $trainingSetsDir{spamDir} );
+    
+    print "Number of ham training messages: $numHamMessages\n";
+    print "Number of spam training messages: $numSpamMessages\n";
+    
+    getHamAndSpamStatistics($trainingSetsDir{hamDir}, $trainingSetsDir{spamDir} );
+    
+    
+    #Fetch the emails from a server
+    my %mailConfig = %{ $iniConfig{'MailHostConfig'} };  
+    my (@unreadMails) = getEmails('username' => $mailConfig{username},
+                                'password' => $mailConfig{password},
+                                'mailhost' => $mailConfig{mailhost},
+                                'port' => $mailConfig{port} );
+    
+     
+     # extract and print the words from the mails
+     my $messageCounter = 1;
+     foreach (@unreadMails){
+        my %mailWords = extractMailWords($_);
+        
+        my %wordsProb = calcWordsProb(keys %mailWords);
+        
+        #my @mostInterestingWords = sort { abs( 0.5 - $mailWords{$b}) <=> abs(0.5 - $mailWords{$a}) } values %wordsProb;
+                
+        my $spamProbability = calcMailProb(values %wordsProb);
+        
+        if($spamProbability >= 0.9){
+            print "Message $messageCounter is SPAM!\n";
+            
+        }else{
+            print "Message $messageCounter is HAM!\n";
+        }
+        
+        $messageCounter++;
+     
+        #print '##########################################################';
+        #print join "\n",
+        #               map { qq/$_ -> $mailWords{$_}/ }
+        #                    sort { $mailWords{$b} <=> $mailWords{$a} } keys %mailWords;
+        
+     }
+ 
+}
 
 
 
