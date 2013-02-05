@@ -1,0 +1,31 @@
+gisb ir meeting - 11 - 13 & 14 , 2001
+summary :
+detailed notes :
+informational reporting
+where should the reporting be located in the gisb books for the it & ft reporting ?
+? in cap release books
+? general book
+? create a new book called reports
+should reside in capacity release book since the upload request for a download of posted dataset is the request document .
+? add code value , " transaction information firm "
+? add code value , " transaction information interruptible "
+? add code value , " transaction information - capacity release "
+? add code value , " transaction information firm "
+? add code value , " transaction information interruptible "
+? add code value , " transaction information - capacity release "
+executive summary for capacity release , under the capacity release process / datasets / edi transaction section modified with the below :
+? page 4 of executive summary - add new section describing the dataset .
+? business process and practices , under overview
+o first paragraph " capacity release reports consists of the following datasets : ? . the transactional information - interruptible , the transactional information - firm , and transactional information - capacity release
+voting :
+producer imbalance statement exxonmobil work paper - in progress
+? interest owner data - the entity with ownership interest in the gas .
+? interest owner - hold for resolution r 97058 b for the condition
+? interest owner name - hold for resolution of r 97058 b .
+? interest owner proprietary code - hold for resolution of r 97058 b .
+? add - transportation service provider data group - at detail level .
+? county - # 6 we don ' t currently support this location information in any other
+? statement recipient id * - hold for r 97058
+tammy lee - jaquet
+713 - 853 - 5375
+tammy . jaquet @ enron . com

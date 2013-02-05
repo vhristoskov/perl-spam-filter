@@ -1,0 +1,18 @@
+fcc : mailbox : / / support _ num _ 234 @ wamu . com / sent
+x - identity - key : idl
+date : wed , 15 dec 2004 23 : 55 : 15 + 0200
+x - accept - language : en - us , en
+mime - version : 1 . 0
+content - type : multipart / related ;
+this is a multi - part message in mime format .
+- - - - - - - - - - - - - -
+content - type : text / html ; charset = us - ascii
+content - transfer - encoding : 7 bit
+- - - - - - - - - - - - - -
+content - type : image / gif ;
+name = erbium . gif
+content - transfer - encoding : base 64
+content - id : partl . 03090806 . 02010207 @ support _ ref _ 5921185022256 @ wamu . com
+content - disposition : inline ;
+filename = erbium . gif
+- - - - - - - - - - - - - - - -

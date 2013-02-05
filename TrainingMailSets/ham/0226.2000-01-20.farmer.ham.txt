@@ -1,0 +1,38 @@
+fyi .
+- - - - - - - - - - - - - - - - - - - - - - forwarded by brenda f herod / hou / ect on 01 / 20 / 2000
+02 : 48 pm - - - - - - - - - - - - - - - - - - - - - - - - - - -
+enron technology
+mills , stephen schwarz , michael eiben / hou / ect @ ect , brenda herod , inja chun ,
+dave nommensen , brent a price / hou / ect @ ect , scotty gilbert , jim
+susan harrison / hou / ect @ ect , edward de
+valcourt / enron _ development @ enron _ development , jim coffey / hou / ect @ ect , julie
+ferrara / hou / ect @ ect , romeo d ' souza / hou / ect @ ect , ,
+wrighcs @ texaco . com , robert d morgan / hou / ect @ ect , wanda curry , james
+mckay / hou / ect @ ect
+shiring / hou / ect @ ect , shonnie daniel / hou / ect @ ect , sally beck
+between enron & texaco which will be combining the lrc and bridgeline
+pipeline systems :
+summary : the lrc & bridgeline pipeline systems will be combined under the
+name of bridgeline llc . ownership in the jv will be split 60 % texaco & 40 %
+enron . bridgeline gas marketing llc will be the entity that will be trading
+on the pipelines under the new j . v . contracts and service agreements are in
+the process of being drafted .
+support this j . v . texaco will be providing the scada system . i understand
+center once a more permanent spot can be built out . trading for the new jv
+will start in early february for march production .
+page and make sure there is nothing that will fall through the cracks .
+pc ' s : jim fussell is in the process of ordering the pc ' s for this jv at my
+voice and data networks are in place for eb 21 . once the more permanent spot
+combination of trader phones , lucent phones , stenfons and amtels have been
+requested .
+currently half of the floor is empty but they are set up with high wall
+cubes . we can ' t set up the pc ' s , phones , amtels , etc until this is done .
+system security . i have received the names of the traders but i don ' t know
+interface between enron ' s unify pop ' s application and bridgeline ' s scada
+there will be two scada systems and perhaps two gas controls until everything
+pop ' s and scada for confirmed noms and efm volumes until the transition is
+complete .
+them via a microwave system . the new jv could save on communications costs
+done as a part of the scada transition .
+process started .
+my assistant set up the meeting if needed . in the mean time i can be reached

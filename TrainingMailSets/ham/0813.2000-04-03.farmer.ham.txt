@@ -1,0 +1,26 @@
+utilization - revised
+service contract provided that they are for different desks and only one is
+tagged as " primary " . here is the procedure for setting up new capacity
+a . you will probably first notice this via a warning / error message in path
+manager when building a new path . the message will read something like
+" source / destination 123456 for desk imct does not match service contract 3434
+and will be removed . "
+b . make note of the deal number in the service list of the service contract
+that you were using in the new path .
+c . open that transport capacity deal in sitara . then hit copy .
+d . on the new deal :
+or market deal that you are pathing with . if it a deal for which we are
+desk . the " primary " deal will carry the actual agent . the agent
+contract will get cleared . re - select the agent contract .
+the pipeline contract .
+just above the various exchange line items is a primary deal check box .
+un - check it .
+rates , uncheck them as well . the " primary " deal will carry the mdq and
+any negotiated demand , commodity or fuel .
+hit release .
+in the service list now read " multiple " . right - click / service deals will list
+the specific deals .
+f . re - build the path as you originally desired . the warning / error message
+should not appear again .
+please file this in your " call dave if i can ' t find this " folder .
+thanks , d . n .

@@ -1,0 +1,9 @@
+pat ,
+manually for volumes when deals are not correctly entered . i would propose
+that logistics be included in the communication of when checks are manually
+cut . it would be especially beneficial if we tracked manual checks by
+counterparty , meter , and / or deal ticket id or price . i feel that this will
+please let me know what your thoughts are on this matter .
+thank you for your time ,
+mary
+ext 35251

@@ -1,0 +1,10 @@
+cleaning - up and combining well - head deals . . . so far , i have completed :
+eog :
+deal 126358 reflects 0 volumes on meter 6067 march 2000 forward
+sitara deal 126358 ; all volumes are at meter 6296
+forest :
+deal 132832 reflects 0 volumes march 2000 forward
+suemaur :
+deal 138658 reflects 0 volumes march 2000 forward
+( deals 125827 / 125828 / 125899 ) ; and costilla ( deals 125783 / 125900 )
+o ' neal 3 - 9686

@@ -1,0 +1,10 @@
+gas day 29
+redeliveries :
+13 , 482 pg & e
+21 , 518 mobil beaumont
+3 , 000 hpl cw at carthage
+gas day 30
+redeliveries
+43 , 482 pg & e
+21 , 518 mobil beaumont
+3 , 000 hpl cw at cartage

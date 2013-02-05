@@ -1,0 +1,51 @@
+introduction
+hope will improve its effectiveness and usefulness in the management of your
+products .
+summary of new features
+multiple children - a " child " product can be the " parent " of another child
+( multiple links in a chain ) and different types of links can be placed
+against a single parent .
+static product bar prices - when you change a price in the product bar and
+in product properties until you logout .
+sorting - you can sort by any field on the products tab simply by clicking on
+the title of the field . for multiple sorts , hold down your " shift " key .
+relationship identified . ( e . g . the product bar might before have said : " basis
+link - parent " and now would say " stand alone , parent " ) .
+detailed feature descriptions
+multiple children
+chain , system performance is degraded by large chains . this is because when a
+product in the chain before it can process the transaction request . the
+database must then update the stack for each product before releasing the
+locks . " vertical " chains ( multiple parents and children in one long link ) are
+large vertical chains should be avoided .
+product b . at the same time , child product c can have a syncopated basis link
+basis link and a regular basis link .
+static product bar prices
+the new version of enrononline provides for " sticky " product bar price and
+volume changes . when you change a number on the product bar , it does not
+reduces repeated price movements . with the old version of stack manager , if
+moves the price , resulting in an increased transaction failure rate . entering
+rate .
+sorting / selecting
+the new version of enrononline provide significant additional sorting
+functionality over the old . you can now choose any field heading ( type ,
+location , reference period , etc . ) and sort by that item . you can do multiple
+sorts by holding down the shift key . example : if you select type and then
+location while holding the shift key , you will see your products sorted first
+by product type and then within each product type , by location ( in
+alphabetical order ) .
+when you select products , you can drag your mouse while holding down the left
+parent products and f / x products
+one of the differences in the way that the new version works is in its
+treatment of how parent products are displayed . the old version showed the
+does not show the type of link . this is because the new version allows for
+more than one type of link on each parent product .
+some traders may notice that their products which have f / x links are now
+parent , rather than managed individually .
+assistance
+as always , if you have any problems with any enrononline functionality ,
+20 7783 7783 , australia : + 61 2 9229 2300 ) .
+general feedback
+if you have any comments on the new functionality , or suggestions for further
+functionality , please call david forster on 713 853 1861 . if you had
+release , rest assured that you have not been forgotten - we are working hard

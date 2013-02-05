@@ -1,0 +1,8 @@
+stack manager changes
+fill order enhancements - ( effective tuesday september 25 )
+? the order will now be filled at the full order volume regardless of the trader ' s stack volume .
+resize floated stack windows - ( effective tuesday september 25 )
+website changes ( effective monday september 24 )
+limit order restrictions on physical transactions -
+please call me if you have any questions . thanks .
+savita ( x 31787 )

@@ -1,0 +1,58 @@
+on wednesday , sept . 13 , we will be using the new version of enrononline
+( website and stack manager ) for all north american internal users .
+this is a live website and all trades are real .
+content of this email
+1 . introduction
+2 . version 2 . 0 launch date
+3 . new website features
+4 . new stack manager features
+5 . your participation
+6 . contacts
+1 . introduction
+next few days . in preparation for this launch , the new web site will be
+european internal users will be launched shortly after north america .
+http : / / prod . enrononline . com ( no www . ) this is a live web site and all trades
+are real .
+new features ( as per recent presentations and training sessions ) include :
+? price limit orders
+? floating windows
+? market news and quotes
+? weather maps and tables
+? industry - specific publications
+? market - specific homepages
+2 . version 2 . 0 launch date
+3 . new website feature details
+available . the limit orders remain open in the system until they are
+executed , cancelled by the user , or when they expire . all pending orders will
+expire no later than 12 hours after being placed .
+pending price limit orders will appear in a new window below the quotes
+screen in the website .
+create separate page tabs for the products that interest them . users can
+be changed by clicking on a column heading , with multiple sorts possible by
+holding down the shift key while clicking .
+different products by right - clicking on the products in the main quotes
+screen .
+category heading .
+exchanges around the world .
+industry publications : website users can read a wide range of
+industry - specific publications including argus european natural gas , argus
+desk , coal daily and more .
+4 . new stack manager features
+open a window showing a summary of the best price limit order bids and offers
+against that product .
+under normal circumstances , the price shown on the website will be the same
+show a price which is better than an existing price limit order . instead , the
+limit order while it is being filled . once the appropriate price limit orders
+are filled , then the website will again show your stack manager prices .
+it is important that you complete the  & maximum volume  8 field in the product
+properties window and that you select " allow price limit orders " . also , make
+sure that the price tick window in the stack manager  , s  & product properties  8
+5 . your participation
+6 . contacts
+if you have any further questions that are not answered above please feel
+the americas :
++ 1 ( 713 ) 853 - 4357 ( help )
+asia and australia
++ 61 2 9229 2300
+all other regions
++ 44 ( 0 ) 20 7783 7783

@@ -1,0 +1,20 @@
+fyi - what do you all think ?
+- - - - - - - - - - - - - - - - - - - - - - forwarded by brenda f herod / hou / ect on 12 / 20 / 99 08 : 19
+am - - - - - - - - - - - - - - - - - - - - - - - - - - -
+kelly / hou / ect @ ect , bryce baxter / hou / ect @ ect , randall l gay / hou / ect @ ect ,
+brenda f herod / hou / ect @ ect , richard pinion / hou / ect @ ect
+of the event itself .
+d . n .
+bryce baxter / hou / ect @ ect , randall l gay / hou / ect @ ect , brenda f
+herod / hou / ect @ ect
+current month + 1
+scotty
+niestrath / hou / ect @ ect , dave mcmullan / hou / ect @ ect
+scotty / richard ,
+contract _ event _ status . we have over 1 gig of data in that table . i would
+row with a last _ mod _ date over a month ( or two ) old . so if someone balances
+february 1999 this month , we will keep it around for a month ( or two ) .
+of time ?
+this is not an audit table . this is just a " log " every nom / track / balance / edi
+send / fax send / sched qty / quick response since the beginning of time .
+d . n .

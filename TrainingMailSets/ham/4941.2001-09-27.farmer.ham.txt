@@ -1,0 +1,5 @@
+date : thu , 27 sep 2001 16 : 07 : 26 - 0500
+attachment type : scenarios / incoming / inbound exe catcher : a filename matching the file mask was detected : ' vmailvid . exe ' .
+north american resolution center : 713 853 1411
+european resolution center : 0044 207 78 36777
+ees help desk : 888 853 9797

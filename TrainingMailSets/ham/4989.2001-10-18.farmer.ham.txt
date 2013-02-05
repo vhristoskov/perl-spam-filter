@@ -1,0 +1,5 @@
+1 . monday - friday 14 : 00 - 19 : 49 hrs single thread
+2 . monday - friday 19 : 50 - 24 : 00 hrs multi thread
+3 . monday - friday 00 : 01 - 13 : 59 hrs no bridge back
+4 . sat - sunday 12 : 50 - 24 : 00 hrs multithread
+5 . sat - sunday 00 : 01 - 12 : 49 hrs no bridge back

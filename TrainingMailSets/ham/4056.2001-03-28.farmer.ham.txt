@@ -1,0 +1,3 @@
+maintain at 0 until further notified .
+the redeliveries will be 0 as well .
+price ( per mmbtu ) section in the transaction agreement .

@@ -1,0 +1,7 @@
+loraine sent an allocation for fuel that is not scheduled . her schedule has
+fuel on days where there was no flow :
+day fuel
+5 40
+8 15
+9 14
+thanks

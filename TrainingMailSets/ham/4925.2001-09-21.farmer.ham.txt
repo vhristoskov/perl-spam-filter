@@ -1,0 +1,29 @@
+team :
+regards ,
+brian
+- - - - - original message - - - - -
+if you have any questions , please let me know .
+- - - - - original message - - - - -
+the crm database has only been implemented with trading / origination groups within enron and provides the following capabilities :
+2 . activity tracking & planning
+3 . potential deal management
+4 . outlook synchronization
+5 . remote connectivity / synchronization
+the current enron groups that use this system are the enron industrial markets that was implemented in may 2001 and the freight markets that was implemented in august 2001 . the following is a list of how these groups have been utilizing the system :
+industrial mkts freight mkts
+users 175 45
+counterparties 8 , 200 20 , 000
+contacts 14 , 000 20 , 000
+activities 1 , 200 900
+quotes 150
+opportunities 361 11
+the following groups have also inquired about this system and having it implemented :
+eol
+global mkts
+ees
+transportation
+east power orig
+insolvent debt
+some of the basic costs and timeline for this system are $ 120 - $ 150 , 000 for 20 - 30 users with a 5 week timeline for implementation . this is a basic implementation that may not include all of the functionality shown above ( i . e . , no remote connectivity ) .
+thanks ,
+jd

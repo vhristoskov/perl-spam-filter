@@ -1,0 +1,17 @@
+- - - - - - - - - - - - - - - - - - - - - - forwarded by edward terry / hou / ect on 02 / 21 / 2001 09 : 19
+am - - - - - - - - - - - - - - - - - - - - - - - - - - -
+sullivan / hou / ect @ ect , katherine l kelly / hou / ect @ ect , robert
+donna greif / hou / ect @ ect , richard pinion / hou / ect @ ect
+hall / na / enron @ enron , bryce baxter / hou / ect @ ect
+sitara .
+deal id if the deal is a " broker eol trade " deal . one of the drawbacks of
+manager for these related deals . all other deals will have the eol deal id ,
+if applicable . the eol id would not show up on the statements because it
+wouldn ' t be populated .
+be more time consuming . the obvious code change would be in the statement
+generation area as well as other report type information .
+implement .
+share your thoughts . . . .
+confused with broker deals done at a given point with not transportation .
+any questions , please ask . . .
+thanks !

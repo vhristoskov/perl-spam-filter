@@ -1,0 +1,10 @@
+step - by - step instructions at
+menus :
+? pay information
+? paycheck inquiry
+3 . select the appropriate payroll period .
+5 . click on the payroll period link under the period heading ;
+a new window opens .
+8 . view your pay advice .
+10 . verify / change the displayed printer .
+instructions at http : / / isc . enron . com / site / doclibrary / user /

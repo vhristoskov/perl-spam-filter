@@ -1,0 +1,3 @@
+destination side however , it would not affect the rankings on the source
+side . this will save time pathing and prevent the amount of data entry
+thanks .

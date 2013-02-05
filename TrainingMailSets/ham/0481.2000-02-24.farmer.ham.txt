@@ -1,0 +1,15 @@
+thanks for you help , stella
+- - - - - - - - - - - - - - - - - - - - - - forwarded by stella l morris / hou / ect on 02 / 24 / 2000
+02 : 33 pm - - - - - - - - - - - - - - - - - - - - - - - - - - -
+fred boas
+02 / 24 / 2000 11 : 25 am
+stella :
+arrangement on the 012 - 41500 - 02 - 015 contract with the track id 80705 . would
+you put the contract in pops with the associated track id ?
+the transportation contract ( 012 - 41500 - 02 - 003 ) for the liquids replacement
+gas is not pops . i looked in path manager and there is no deal for it
+either . in december , the deal for this gas was 114096 . could you extend the
+can put the contract at meter 9643 .
+let me know when all of this is done so that i can reallocate the meter .
+thanks ,
+fred

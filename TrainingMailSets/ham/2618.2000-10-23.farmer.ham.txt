@@ -1,0 +1,3 @@
+teco tap 0 / enron ; 75 . 000 / hpl gas daily
+teco tap 0 / enron ; 84 . 375 / hpl gas daily
+teco tap 0 / enron ; 115 . 625 / hpl gas daily

@@ -1,0 +1,12 @@
+calgary . the changes were well received and no revisions were requested .
+tuesday , january 18 for use the morning of wednesday , january 19 .
+paul , could you please insure that the network folks have the tibco install
+complete by monday , including terminal server .
+scotty , can you follow up with calgary and texas since they missed the demo .
+also , what level of security is desired for the rollout - selected
+schedulers or all of logistics ?
+all is clean by tuesday night . ( print , filter , closed path list , & app close
+error msg )
+if you do not feel like this schedule can be met , please let me know as you
+become aware .
+thanks , d . n .

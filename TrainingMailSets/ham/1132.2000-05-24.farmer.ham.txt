@@ -1,0 +1,7 @@
+matrix rates and all baseload rates that i know of at this time . i have not
+yet received third party transport rates , so if you know of any , please let
+me know . also , i have zeroed out some volumes on some tickets for june , so
+zero . if the months were already on the ticket , then i refreshed the rate
+and left the volume as is .
+they ' re reflected in position manager correctly . please let me know if you
+heidi

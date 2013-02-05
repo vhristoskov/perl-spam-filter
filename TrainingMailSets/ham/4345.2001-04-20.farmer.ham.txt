@@ -1,0 +1,9 @@
+janet and daren ,
+x - mailer : lotus notes release 5 . 0 . 4 june 8 , 2000
+message - id :
+date : thu , 19 apr 2001 13 : 58 : 50 - 0500
+mime - version : 1 . 0
+content - type : multipart / mixed ; boundary = " 0 _ _ = 85256 a 330067 f 5108 f 9 e 8 a 93 df 938690918 c 85256 a 330067 f 510 "
+content - disposition : inline
+( see attached file : tampaelectric . doc )
+- tampaelectric . doc

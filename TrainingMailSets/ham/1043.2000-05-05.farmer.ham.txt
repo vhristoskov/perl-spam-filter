@@ -1,0 +1,25 @@
+fyi .
+- - - - - - - - - - - - - - - - - - - - - - forwarded by brenda f herod / hou / ect on 05 / 05 / 2000
+09 : 01 am - - - - - - - - - - - - - - - - - - - - - - - - - - -
+rita wynne
+05 / 05 / 2000 08 : 11 am
+fyi . . . . . . . . .
+- - - - - - - - - - - - - - - - - - - - - - forwarded by rita wynne / hou / ect on 05 / 05 / 2000 08 : 10 am
+- - - - - - - - - - - - - - - - - - - - - - - - - - -
+bowen / hou / ect @ ect , randall l gay / hou / ect @ ect , patti sullivan / hou / ect @ ect , pat
+clynes / corp / enron @ enron , carlos j rodriguez / hou / ect @ ect , robert
+superty / hou / ect @ ect , bryce baxter / hou / ect @ ect , rita wynne / hou / ect @ ect , donna
+greif / hou / ect @ ect
+perlman / hou / ect @ ect , scott williamson / hou / ect @ ect , jim ogg / hou / ect @ ect , regan
+m smith / hou / ect @ ect , kenneth m harmon / hou / ect @ ect
+as you are aware , the unify system experienced significant performance
+the problem was exacerbated by a multitude of additional user logins thinking
+that a fresh login might work better . additional logins never improve
+the good news is that we found out what caused the problem . it was not a
+particular user or a particular report or process . it was actually an
+the past , but this particular change had drastic side effects . we have
+behavior is a " feature " or a bug . in the meanwhile , we will do these types
+of changes at night during scheduled outages .
+i apologize for the frustration , anxiety , and extra work brought on by this
+call .
+dave n .

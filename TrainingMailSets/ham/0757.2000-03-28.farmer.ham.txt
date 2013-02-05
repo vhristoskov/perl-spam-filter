@@ -1,0 +1,7 @@
+sitara # 157288
+could you pls . have the rate for the following point adjusted ?
+contract .
+pipe : pgev
+point : ( carthage / pgev )
+sitara / unify rate : $ 2 . 53 ( hsc , idx - . 05 )
+contract rate : $ 2 . 52 ( hsc , idx - . 06 )

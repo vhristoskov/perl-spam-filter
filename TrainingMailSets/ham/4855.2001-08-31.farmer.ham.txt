@@ -1,0 +1,5 @@
+stack manager changes
+if a product ' s stack is inactivated the font for that product will be grayed out in stack manager . if the stack is active it will appear in black font .
+website change
+if you have any questions please call me at 31787 . thanks .
+savita

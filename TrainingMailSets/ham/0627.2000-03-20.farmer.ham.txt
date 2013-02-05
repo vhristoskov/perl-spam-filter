@@ -1,0 +1,4 @@
+pipeline at meter 8793 . karry , it is my understanding that you do not want
+transport on humble ?
+daren , the intercompany hplc purchase is how it is set up currently in mops .
+hc

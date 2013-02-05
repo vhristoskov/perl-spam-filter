@@ -1,0 +1,9 @@
+the following represents daily volume and price information for entex ' s first
+contract year . the citygate volumes were retreived out of business objects
+and represent entex ' s meter 2000 volumes . the midcon volumes are based on
+the following :
+2 . midcon volumes v . daily price
+4 . first of the month index v . gas daily price
+5 . percent change in daily price v . percent change in daily volume
+thanks ,
+ami

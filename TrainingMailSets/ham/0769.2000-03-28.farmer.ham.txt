@@ -1,0 +1,3 @@
+because of a timing issue with client services , i have fixed deal 157288 ,
+stacy : i will need feb pathed asap so volume mgmt can get the volumes
+this problem , among others with this exchange deal , is currently we have a

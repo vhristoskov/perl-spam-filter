@@ -1,0 +1,21 @@
+hi ,
+you probably already heard . . . test of the new sybase data base release is off
+contact diane niestrath at 3 - 9931 or dave mcmullan at 3 - 9127 .
+diane niestrath
+baxter / hou / ect @ ect , rita wynne / hou / ect @ ect , pat clynes / corp / enron @ enron ,
+randall l gay / hou / ect @ ect , george smith / hou / ect @ ect , edward
+terry / hou / ect @ ect , beverly beaty / hou / ect @ ect , carrie hollomon / hou / ect @ ect
+pyle / corp / enron @ enron , jim ogg / hou / ect @ ect , jaikishore bharathi / hou / ect @ ect ,
+regan m smith / hou / ect @ ect , kenneth m harmon / hou / ect @ ect , paul f
+poellinger / hou / ect @ ect
+we have done some preliminary testing of the latest version of sybase
+hardware and business restrictions .
+your staff !
+applications / unify applications / unify gas - power stage . on the login window ,
+select server = " ase 12 test " . if you usual production password does not
+the test script during the time period will be :
+12 : 00 - 1 : 30 logistics : pathing , nominating , running some reports
+12 : 20 - 1 : 30 volume management : do your thing
+important test . the results of these 2 tests will dictate whether we should
+with poor system performance the better !
+thanks in advance for your help , d . n .

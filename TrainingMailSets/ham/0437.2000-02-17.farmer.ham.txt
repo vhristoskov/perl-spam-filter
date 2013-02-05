@@ -1,0 +1,27 @@
+the pathing that was done for december 1999 and january 2000 worked .
+source
+path
+destination
+012 - 27049 - 05 - 001 / stg / f 012 - 27049 - 05 - 001
+bammel - meter 56 l
+external bammel - meter 56 012 - 27049 - 02 - 001
+transport
+012 - 27049 - 02 - 001 / transport / i / 1 / e
+meter 56 must be
+attached
+transport imbalance
+injection
+source
+path
+destination
+012 - 41500 - 02 - 015 / transport / i / 1 / e
+012 - 41500 - 02 - 015
+external bammel - meter 57
+transport
+imbalance
+withdrawl
+external bammel - meter 57
+012 - 41500 - 02 - 015
+012 - 41500 - 02 - 015 / transport / i / 1 / e
+pool
+transport imbalance

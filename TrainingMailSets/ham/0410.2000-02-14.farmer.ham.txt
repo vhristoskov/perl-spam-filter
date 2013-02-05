@@ -1,0 +1,36 @@
+daren you are correct in that this was only in mops for the 26 th . it was
+the 16 , 700 nom . the nom was never - 0 - out in pops therefore the change
+notification process in pops did not pick up a change at this meter . this
+meter is pathed by kim and confirmed by me - it is extremely odd that this
+was missed in mops . the record would have been out of balance and someone ,
+if not several people , normally would make a comment on this . also - all
+of my records indicate that the 16 , 700 was good through the 31 st except the
+mops entry . my confirmations with koch didn ' t reflect the - 0 - ; the last
+of a phone call indicating anything other than 16 , 700 . it is very odd for
+re - allocated the meter . the oba has taken the hit and i am working off the
+imbalance now .
+your help .
+if this doesn ' t answer all the questions , just give me a call .
+thanks ,
+charlotte
+daren j farmer
+02 / 14 / 2000 12 : 50 pm
+stella and charlotte ,
+path was nominated for 1 / 26 only . however , in pops the path was nominated
+and confirmed for 1 / 26 - 1 / 31 . this should have been showing up as a
+bridgeback error during the month . also , someone should have identified that
+the path / nom in mops wasn ' t the same as the nom in pops . this discrepancy
+should have been found before we closed out january .
+i researched this problem by reviewing both systems ( looking at the path id
+in pops , finding it in mops , and checking the audit on the path in mops ) .
+this type of issue should be researched and solved by the logistics group ,
+was confirmed for the 27 th - 31 st .
+oba . unless you can find a missing transport contract .
+d
+fyi
+- - - - - - - - - - - - - - - - - - - - - - forwarded by stella l morris / hou / ect on 02 / 10 / 2000
+02 : 25 pm - - - - - - - - - - - - - - - - - - - - - - - - - - -
+joanie ,
+deal 155118 is valid on 1 / 26 / 00 only , but the rest of the volume you are
+looking for is scheduled on days 1 / 27 - 1 / 31 . i am sure there is no
+pricing on those days .

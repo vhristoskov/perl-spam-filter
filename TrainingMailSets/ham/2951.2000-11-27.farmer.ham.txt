@@ -1,0 +1,22 @@
+please see the following instructions for the new messenging board . if you
+your favorites .
+the gas message board application can run on both ie 5 . 0 and ie 5 . 5 now .
+http : / / gasmsgboard . dev . corp . enron . com
+application .
+here is the steps they should do :
+1 ) launch internet explorer
+2 ) type : http : / / gasmsgboard . dev . corp . enron . com ( or just open this email and
+click on above url )
+they don ' t see any messages , there are two reasons :
+( 2 ) there is no new messages added yet .
+messages after typing the
+5 ) after the message has been sent , the message will be displayed on the main
+window immediately , the rest people who are online will get the new message
+second . because each time the browser refreshes the screen , the screen will
+be blink . users don ' t want the screen blink every second while they read the
+messages .
+them up later than 6 : 00 pm , please let me know . i can reset the time .
+note : right now the application is under test environment . if they like it , i
+let me know any feedbacks .
+thanks ,
+fangming

@@ -1,0 +1,21 @@
+below is a list of the major items that are still outstanding on the
+interdesk / interconnect report for 1999 and 2000 that is impacting the
+intercompany cleanup for sap implementation . these issues have been
+addressed in earlier e - mails and this is an updated list of issues that need
+and ngpl and also for tejas .
+ena is using tetco ' s volume and hplc is using the hpl measurement volume ,
+clem and pat are working on .
+3 ) transco bammel meter 74 - transco and hpl ' s nominations are out of
+once this is done and thu
+make the meter non allocatable in pops .
+clem verified with steve schneider
+that this meter is not on hpl ' s system .
+5 ) east texas gas / devon - devon invoicing ena entire flow at carthage .
+meter 4607701 east texas keeping hplc whole on
+nominations
+deal is out of balance because of this
+karen is working
+between them
+6 ) pgev - actuals on swing meters ( hpl ) not matching expense volumes being
+allocated by pgev .
+7 ) pan energy sales issues - discrepancies on pgev . katherine and sherlyn

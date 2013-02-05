@@ -1,0 +1,4 @@
+stack manager modifications
+changes regarding suspension of products
+stack manager will inactivate products rather than suspend them in the following cases :
+? logging out of stack manager - when you log out of stack manager without inactivating or suspending your products , the system will now inactivate your products rather than suspending them .

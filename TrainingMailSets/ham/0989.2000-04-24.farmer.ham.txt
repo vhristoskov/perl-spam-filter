@@ -1,0 +1,4 @@
+debugging purposes . this migration should be transparent for pops users with
+the exception of personal spread sheets using pops tags . the node name for
+please call me if you have any questions concerning the migration .
+- steve

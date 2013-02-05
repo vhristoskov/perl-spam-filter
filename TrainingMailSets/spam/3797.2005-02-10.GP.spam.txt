@@ -1,0 +1,16 @@
+message - id : 20040929124340 . cca . 71866 qi @ earthlink . com
+notification : no
+date : thu , 10 feb 2005 03 : 13 : 03 + 0200
+mime - version : 1 . 0
+content - type : text / html ; charset = us - ascii
+content - transfer - encoding : 7 bit
+x - mailer : accucast ( http : / / www . accucast . com )
+html
+brbr
+micros 0 ft for pennies
+brbr
+a href = http : / / degassing . jnalfjledi . info / ? ' em out / abrbr
+br
+br
+br
+/ html

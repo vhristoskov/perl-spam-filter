@@ -1,0 +1,9 @@
+production reporting . please let me know if
+you have any questions . this report gves you the volume activity of a given
+business unit , on all or selectied pipes , for
+sitara database .
+* login using your sitara login and password .
+business unit , flow date and optionally pipe .
+if you have any problems running this report , let me know at x 37913 .
+thanks ,
+hunaid

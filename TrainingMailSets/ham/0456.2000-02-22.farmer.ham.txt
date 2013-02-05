@@ -1,0 +1,42 @@
+hey guys ,
+that howard should have been the driving force behind this . once we left the
+with howard sitting down doing much of the work . i also think that the below
+the logistics group . i understand that howard has prior scheduling
+experience , but he is not functioning in a scheduling role now and bascially
+( ? ) . in my opinion this is a kudoo for howard for stepping up , but i am
+concerned at the role that he played . team effort is important and it ' s what
+fair share and expectations are appropriately placed . let me know what you
+both think . thanks !
+- - - - - - - - - - - - - - - - - - - - - - forwarded by rita wynne / hou / ect on 02 / 22 / 2000 01 : 31 pm
+- - - - - - - - - - - - - - - - - - - - - - - - - - -
+howard b camp
+02 / 17 / 2000 05 : 55 pm
+camp / hou / ect @ ect , gregory steagall / hou / ect @ ect , daren j farmer / hou / ect @ ect ,
+george grant / hou / ect @ ect , kenny j soignet / hou / ect @ ect , rita wynne / hou / ect @ ect
+the pathing that was done for december 1999 and january 2000 worked .
+source
+path
+destination
+012 - 27049 - 05 - 001 / stg / f 012 - 27049 - 05 - 001
+bammel - meter 56 l
+external bammel - meter 56 012 - 27049 - 02 - 001
+transport
+012 - 27049 - 02 - 001 / transport / i / 1 / e
+meter 56 must be
+attached
+transport imbalance
+injection
+source
+path
+destination
+012 - 41500 - 02 - 015 / transport / i / 1 / e
+012 - 41500 - 02 - 015
+external bammel - meter 57
+transport
+imbalance
+withdrawl
+external bammel - meter 57
+012 - 41500 - 02 - 015
+012 - 41500 - 02 - 015 / transport / i / 1 / e
+pool
+transport imbalance

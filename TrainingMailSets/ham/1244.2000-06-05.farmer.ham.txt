@@ -1,0 +1,14 @@
+you will find it under - start - programs - trading - sitara - su bridge
+already loaded .
+unify .
+- however - it is in the unify failed deal group .
+the date column - shows the last time someone edited the deal .
+sitara deal id - as well as - eol deal id .
+indicates if the deal is an business unit is an agent on the deal .
+if you are contract or validation support - please do not edit the status = p
+release these deals - you will be the approver of the deal - as you have
+we did not build filter by business unit for multiple reasons :
+- if there is a new business unit - you will see it .
+- normally - there should not be more than a screen full of deals in error
+state - once petro can / suncor / sunoco are set up - we will have a reasonable
+if you have any questions or problems - please call the sitara hotline .

@@ -1,0 +1,5 @@
+the following expense report is ready for approval :
+employee name : michael t . olsen
+expense report name : september cellular
+amount due employee : $ 213 . 12
+http : / / expensexms . enron . com

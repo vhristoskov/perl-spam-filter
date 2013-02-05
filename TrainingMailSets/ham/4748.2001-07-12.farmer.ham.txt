@@ -1,0 +1,10 @@
+ions
+> your message
+mdwerner @ cps - satx . com
+williams , barry s . on thu , 12 jul 2001 15 : 48 : 02 - 0500
+message - id :
+date : thu , 12 jul 2001 15 : 47 : 26 - 0500
+mime - version : 1 . 0
+x - mailer : internet mail service ( 5 . 5 . 2653 . 19 )
+x - ms - embedded - report :
+content - type : text / plain

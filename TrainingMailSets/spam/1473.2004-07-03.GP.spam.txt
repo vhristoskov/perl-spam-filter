@@ -1,0 +1,14 @@
+html
+body
+pbr
+/ p
+p align = centera href = http : / / 1 zs . onebusbone . com / tp / default . asp ? id = bwnbsp ; / p
+p align = centerimg src = http : / / rrc . onetuetion . com / stap . gif border = 0 / a / p
+pbr
+br
+brbrbrbr
+brbrbrbr
+brbrbrbr
+/ body
+/ html
+brbr

@@ -1,0 +1,7 @@
+jones / texas utilities @ tu , hpl . scheduling @ enron . com ,
+liz . bellamy @ enron . com
+date nom flow - mcf flow - mmbtu
+3 / 09 30 , 000 29 , 998 30 , 798
+3 / 10 30 , 000 29 , 995 30 , 805
+3 / 11 0 0 0
+btu = 1 . 027
